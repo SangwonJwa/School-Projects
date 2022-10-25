@@ -1,0 +1,101 @@
+@charset "UTF-8";
+
+@font-face{
+    font-family: 'acartica';
+    src: url("../img/Acratica-demo-font-FFP.otf");
+}
+
+html {
+    font-size: 100%;
+}
+
+body{
+    font-family: "나눔고딕", NanumGothic, "맑은고딕", MalgunGothic, "Apple SD Gothic Neo", sans-serif;
+    line-height: 1.7;
+    color: #432;
+}
+
+
+
+a{
+    text-decoration: none;
+}
+
+#logo{
+    font-family: acartica;
+    font-size: 70px;
+    text-decoration: none;
+    color: #005128;
+}
+
+.main-nav{
+    display: flex;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    margin-top: 34px;
+    list-style: none;
+}
+
+.main-nav li{
+    margin-left: 36px;
+}
+
+.main-nav a{
+    color: #432;
+}
+
+.main-nav a:hover{
+    color: #432;
+}
+
+.page-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.wrapper{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 4%;
+}
+
+.home-content{
+    text-align: center;
+    margin-top: 10%;
+}
+
+footer{
+    background: #4c4c4c;
+    text-align: start;
+    padding: 26px 0;
+}
+
+footer h1{
+    color: #fff;
+    font-size: 45px;
+    font-family: acartica;
+}
+
+footer h2{
+    color: #fff;
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+footer p{
+    color: #fff;
+    font-size: 0.875rem;
+}
+
+#companyinfo{
+    width: 60%;
+}
+
+#serviceinfo {
+    width: 40%;
+}
+
+.comp-info{
+    display: flex;
+    justify-content: space-between;
+}

@@ -1,0 +1,37 @@
+@font-face{
+    font-family: 'acartica';
+    src: url("../img/Acratica-demo-font-FFP.otf");
+}
+
+*{ margin:0; padding: 0;}
+body{background-color: #F5F6F7;}
+div{
+    position: absolute;
+    left: 50%;
+    top: 55%;
+    transform: translate(-50%, -50%);
+   }
+ul,li{ list-style: none;}
+li{margin-bottom: 20px; text-align: left;}
+.box{width: 450px; height: 50px; border: 1px solid #666; padding: 10px;}
+.pbox{width: 120px; height: 50px; border: 1px solid #666; padding: 10px;}
+.necessary{font-size: small; color:red;}
+button{background:#005128; color:white; width: 450px; border: 1px solid #666; height:50px; font-size: x-large; cursor: pointer;}
+
+#backtomain{
+    text-decoration: none; 
+    color: rgb(107, 117, 117);
+}
+
+header{
+    height: 140px;
+    margin-top: 3%;
+    margin-bottom: 1px;
+    font-size: 45px;
+    font-family: acartica;
+    
+    position: absolute;
+    left: 50%;
+    top: 10%;
+    transform: translate(-50%, -50%);
+}
